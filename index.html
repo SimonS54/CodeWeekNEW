@@ -1,46 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Music Test</title>
     <link rel="stylesheet" href="style.css">
-    <title>Music Player</title>
 </head>
 <body>
-    <h1>Music Player</h1>
-
-    <div class="music-container">
-        <div class="music-info">
-            <h4 id="title">First Song</h4>
-            <div class="progress-container">
-                <div class="progress">
-
-                </div>
+    <div class="container">
+        <div class="navbar">
+            <img src="media/Logo-removebg-preview.png" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Music Game</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <div class="left-col">
+                <h1>JUST<br>A<br>TEST</h1>
             </div>
-        </div>
-
-        <audio src="music/OnlyMP3.net - Passionfruit-COz9lDCFHjw-192k-1639290530669.mp3" id="audio"></audio>
-
-        <div class="image-container">
-            <img src="images/drke.jpg" alt="music-cover" id="cover"/>
-        </div>
-
-        <div class="navigation">
-            <button id="prev" class="action-btn">
-                <i class="fas fa-backward"></i>
-            </button>
-            <button id="play" class="action-btn action-btn-big">
-                <i class="fas fa-play"></i>
-            </button>
-            <button id="next" class="action-btn">
-                <i class="fas fa-forward"></i>
-            </button>
+            <div class="right-col"></div>
+                <p>Button to Start</p>
+                <img src="media/play.png" id="icon">
         </div>
     </div>
 
+    <audio id="mySong">
 
-    <script src="script.js"></script>
+        <source src="media/song.mp3" type="audio/mp3">
+
+    </audio>
+
+    <script>
+        var mySong = document.getElementById("mySong");
+        var icon = document.getElementById("icon");
+
+        icon.onclick = function(){
+            if(mySong.paused){
+                mySong.onplay();
+                icon.src = "media/pause.png";
+            }else{
+                mySong.onplay();
+                icon.src = "media/play.png";
+            }
+        }
+    </script>
+
 </body>
 </html>
