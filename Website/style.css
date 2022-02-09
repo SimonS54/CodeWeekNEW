@@ -20,6 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+
 }
 
 .logo{
@@ -42,7 +43,7 @@
 .content{
     width: 100%;
     position: absolute;
-    top: 30%;
+    top: 13%;
 }
 
 .left-col{
@@ -84,8 +85,11 @@
     position: relative;
     margin: 100px 0;
     z-index: 10;
+    width: 356px;
+    margin-left: 650px;
   }
-  
+
+
   .img-container {
     position: relative;
     width: 110px;
@@ -168,7 +172,7 @@
     position: absolute;
     top: 0;
     left: 20px;
-    width: calc(100% - 40px);
+    width: calc(100% - 200px);
     padding: 10px 10px 10px 150px;
     opacity: 0;
     transform: translateY(0%);
@@ -204,3 +208,4 @@
     width: 0%;
     transition: width 0.1s linear;
   }
+
