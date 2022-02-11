@@ -12,13 +12,13 @@ const currTime = document.querySelector('#currTime');
 const durTime = document.querySelector('#durTime');
 
 const songs = [
-    'Juice WRLD Ft Benny Blanco - Real Shit',
-    'Lil Baby, Lil Durk ft Rodwave - Rich Off Pain',
-    'Polo G – I Know',
-    'Charlie Puth - Light Switch',
-    'Poschte_(getmp3.pro)',
-    'LCone - Chueche feat. Mimiks',
-    'Gascho_Prix_Nachtverbindig_(getmp3.pro) (2)'
+  'Juice WRLD Ft Benny Blanco - Real Shit',
+  'Lil Baby, Lil Durk ft Rodwave - Rich Off Pain',
+  'Polo G – I Know',
+  'Charlie Puth - Light Switch',
+  'Poschte_(getmp3.pro)',
+  'LCone - Chueche feat. Mimiks',
+  'Gascho_Prix_Nachtverbindig_(getmp3.pro) (2)'
 ];
 
 let songIndex = 2;
@@ -104,4 +104,4 @@ progressContainer.addEventListener('click', setProgress);
 
 audio.addEventListener('ended', nextSong);
 
-audio.addEventListener('timeupdate',DurTime);
+audio.addEventListener('timeupdate', DurTime);
