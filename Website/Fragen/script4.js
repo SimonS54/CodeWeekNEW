@@ -120,7 +120,7 @@ const musicContainer = document.getElementById('music-container');
     }
 
     function confirmandcontinue(destination) {
-      const result = confirm("Do You Wanna go to the Next Level")
+      const result = confirm("Do You Wanna go to the Next Page")
 
       if (result) {
         window.location.href = destination;

@@ -16,9 +16,9 @@ const songs = [
   'Lil Baby, Lil Durk ft Rodwave - Rich Off Pain',
   'Polo G – I Know',
   'Charlie Puth - Light Switch',
-  'Poschte_(getmp3.pro)',
+  'Poschte',
   'LCone - Chueche feat. Mimiks',
-  'Gascho_Prix_Nachtverbindig_(getmp3.pro) (2)'
+  'Gascho Prix Nachtverbindig'
 ];
 
 let songIndex = 2;
