@@ -12,9 +12,11 @@ This Project is a small Music Quiz wich works with mp3 Music Files and a Music P
 ## How to Use:
 
 Startup the index.html file to get to the main Website. After that youll see a "test music box". If you want to, you are able to listen to some music from that "box".
+
 ![MusicTest](images/MusicTest.png)
 
 If you look at the top right corner, there is a navbar with Home/Music Game. Press on Music Game and start the Guessing!
+
 ![MusicGame](images/MusicGame.png)
 
 ## How does it work:
@@ -22,9 +24,11 @@ If you look at the top right corner, there is a navbar with Home/Music Game. Pre
 This Project is Built with Vanilla JS and the Drag and Drop API. 
 
 We used a mp3 songs that get played via the Music Player. With the Drag and Drop API you now are able to Take one of the 4 Awnsers in the Boxes and then Drop it in the Awnser Field.
+
 ![Boxes](images/Boxes.png)
 
 With the Check Button it will tell you if the Awnser is true or false and with the Next Site Button you will get an alert if you wanna go to the next Question.
+
 ![Check](images/Check.png)
 
 ### Made Within the Winter CodeWeek
